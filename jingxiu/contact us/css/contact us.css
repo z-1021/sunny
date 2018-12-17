@@ -1,0 +1,56 @@
+.containter{
+	width:875px;
+	margin:0 auto 70px auto;
+}
+.containter h4{
+	font-size:18px;
+	color:#fa9634;
+	font-weight:bold;
+	height:70px;
+	line-height:70px;
+	text-align:center;
+}
+.containter p{
+	width:100%;
+	text-align:center;
+	margin:0 auto;
+}
+.containter p:last-of-type{
+	font-size:16px;
+	color:#1f0000;
+	height:36px;
+	line-height:36px;
+	margin-bottom:41px;
+}
+.containter h3,.containter p>span{
+	font-size:22px;
+	color:#000000;
+	font-weight:bold;
+	height:22px;
+	line-height:22px;
+	text-align:center;
+}
+.containter p>span{
+	display:inline-block;
+	margin-right:40px;
+}
+.containter p>span:last-of-type{
+	margin-right:0;
+}
+.containter img{
+	width:100%;
+	display:block;
+	margin:0 auto;
+}
+/*..............................................................断点1*/
+@media only screen and (max-width:1000px ) {
+	.containter{
+		width:93%;
+	}
+	
+}
+@media only screen and (max-width:535px ) {
+	.containter p>span{
+		line-height:38px;
+	}
+}

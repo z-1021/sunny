@@ -1,0 +1,46 @@
+.more{
+	width:100%;
+	padding-left:20px;
+	background:#f8f5eb;
+}
+.more h2{
+	font-size:24px;
+	font-weight:bold;
+	color:#fa9634;
+	line-height:50px;
+}
+.more p{
+	text-indent:2em;
+}
+.more p a{
+	display:inline-block;
+	width:168px;
+	font-size:16px;
+	color:#383530;
+	line-height:40px;
+}
+.more p a:hover{
+	color:peru;
+}
+.return{
+	position:fixed;
+	bottom:80px;
+	right:30px;
+}
+.return a{
+	display:block;
+	width:50px;
+	height:50px;
+	border-radius:50%;
+	background:url(../img/返回.png) no-repeat center center;
+	background-color:#f4e4ae;
+	
+}
+@media only screen and (max-width:410px ) {
+	.more p{
+		text-indent:0;
+	}
+	.more p a{
+		text-indent:2em;
+	}
+}
