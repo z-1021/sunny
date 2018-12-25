@@ -1,0 +1,77 @@
+.containter{
+	width:1030px;
+	margin:40px auto auto auto;
+	display:flex;
+}
+.list{
+	width:26.50485436893204%;
+	height:162px;
+	padding-right:1.6504854368932%;
+	border-right:1px solid #bababa;
+	margin-right:38px;
+}
+.list li{
+	border-bottom:4px solid transparent;
+	height:81px;
+	padding-left:20px;
+}
+.list li:hover{
+	border-bottom:4px solid #fa9634;
+}
+.list li span{
+	display:block;
+	width:40px;
+	height:43px;
+	float:left;
+	margin-top:18px;
+	margin-right:10px;
+}
+.list li:first-of-type span{
+	background:url(../images/xygk_02.jpg) no-repeat center center;
+}
+.list li:nth-of-type(2) span{
+	/*background:url(../images/xygk_06.jpg) no-repeat center center;*/
+}
+.list li:first-of-type:hover span{
+	background:url(../images/xygk_03.jpg) no-repeat center center;
+}
+.list li:nth-of-type(2):hover span{
+	background:url(../images/xygk_07.jpg) no-repeat center center;
+}
+.list .active span{
+	background:url(../images/xygk_07.jpg) no-repeat center center;
+}
+.list .active{
+	border-bottom:4px solid #fa9634;
+}
+.list li a{
+	display:block;
+	font-size:22px;
+	color:#222222;
+	line-height:77px;
+	float:left;
+	overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.content{
+	width:68.54368932038835%;
+}
+.txt{
+	width:100%;
+	padding-top:5px;
+	padding-bottom:79px;
+}
+.txt dl dt{
+	font-size:18px;
+	color:#fa9634;
+	height:52px;
+	line-height:52px;
+	font-weight:bold;
+}
+.txt dl dd{
+	font-size:16px;
+	color:#000000;
+	line-height:30px;
+	text-indent:2em;
+}

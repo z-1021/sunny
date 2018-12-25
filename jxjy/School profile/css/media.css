@@ -1,0 +1,78 @@
+/*......................................................断点1*/
+@media only screen and (max-width:1000px ) {
+	.containter{
+		width:97%;
+	}
+	.list{
+		width:28.45360824742268%;
+		padding-right:1.75257731958763%;
+		margin-right:38px;
+	}
+	.content{
+		width:67.11340206185567%;
+	}
+	.text{
+		width:100%;
+	}
+	.text img{
+		width:100%;
+	}
+}
+/*........................................................断点2*/
+@media only screen and (max-width:760px ) {
+	.containter{
+		width:94.73684210526316%;
+		flex-wrap:wrap;
+		margin:20px auto auto;
+	}
+	.list{
+		width:100%;
+		/*float:left;*/
+		border:none;
+		padding:0;
+		margin:0;
+		height:94px;
+	}
+	.list li{
+		width:50%;
+		height:103px;
+		text-align:center;
+		float:left;
+		padding-left:0;
+	}
+	.list li a{
+		width:100%;
+		font-size:20px;
+		text-align:center;
+		line-height:55px;
+	}
+	.list li span{
+		margin:0 auto;
+		float:none;
+	}
+	.content{
+		width:100%;
+		margin:0 auto;
+	}
+}
+/*...............................................................断点3*/
+@media only screen and (max-width:480px ) {
+	.containter{
+		width:93.75%;
+	}
+	.text p{
+		font-family:宋体;
+	}
+	.list li{
+		height:94px;
+		padding-top:10px;
+	}
+	.list li a{
+		font-family:"宋体";
+		font-size:16px;
+		line-height:43px;
+	}
+	.text p,.txt dd{
+		font-family:宋体;
+	}
+}
